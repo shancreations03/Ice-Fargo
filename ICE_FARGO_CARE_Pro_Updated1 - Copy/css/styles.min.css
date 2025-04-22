@@ -1,0 +1,22 @@
+
+body{font-family:Arial,sans-serif;margin:0;padding:0;background:#ffffff;color:#1d3551;}
+header,footer{background:#1d3551;color:#ffffff;padding:20px;text-align:center;}
+nav a{color:#ffffff;margin:0 10px;text-decoration:none;}
+nav a:hover{color:#febd01;}
+section.container{padding:20px;}
+button,.cta{background-color:#febd01;color:#1d3551;border:none;padding:10px 20px;cursor:pointer;}
+button:hover,.cta:hover{background-color:#1d3551;color:#ffffff;}
+form input,form textarea{width:100%;margin:10px 0;padding:10px;border:1px solid #1d3551;}
+form button{background:#febd01;color:#1d3551;padding:10px 20px;border:none;cursor:pointer;}
+form button:hover{background:#1d3551;color:#ffffff;}
+#scrollTopBtn{position:fixed;bottom:20px;right:20px;display:none;background:#febd01;color:#1d3551;border:none;padding:10px;border-radius:50%;cursor:pointer;}
+#scrollTopBtn:hover{background:#1d3551;color:#ffffff;}
+.socials a{color:#febd01;text-decoration:none;margin:0 5px;}
+.socials a:hover{color:#ffffff;}
+button:hover {
+  animation: bounce 0.5s;
+}@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
